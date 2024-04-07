@@ -80,7 +80,6 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     // Handle back button press (optional)
-    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack()
